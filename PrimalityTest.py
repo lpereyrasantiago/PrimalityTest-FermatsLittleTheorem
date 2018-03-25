@@ -3,7 +3,7 @@
 from random import randint
 
 # This program contains only one method, wich takes as argument a single string. This string must contain firstly 
-# the program which primal or not-primal nature we won't to figure out and, secondly, the certainty we expect from
+# the number which primal or not-primal nature we want to figure out and, secondly, the certainty we expect from
 # the algorithm (which will keep working until this certainty is obtained).
 
 # Fermat's little theorem states that for a given p and a numbers we can know p is primal when a**p-a is equal to some number 
