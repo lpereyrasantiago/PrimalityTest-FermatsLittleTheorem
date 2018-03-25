@@ -19,7 +19,7 @@ def fermats_little_theorem(input_values):
     
     count = 0
     while 1 - pow(2, -count) < required_certainty:
-        a = randint(1, given_number - 1)
+        a = randint(2, given_number - 1)
         print("certainty is " + str((1 - pow(2, -count))) + "\n")
         if pow(int(a), int(n),int(n)) != a:
             print(False)
