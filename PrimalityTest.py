@@ -33,7 +33,7 @@ def fermats_little_theorem(input_values):
     print(True)
     print("We can be " + str(1 - pow(2, -count)) + "% " + "certain that we are dealing with a prime number")
     
-    def fermats_little_theorem(some_number, wanted_certainty)
+    fermats_little_theorem(some_number, wanted_certainty)
     
     #Example:
     
