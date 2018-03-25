@@ -6,9 +6,9 @@ from random import randint
 # the number which primal or not-primal nature we want to figure out and, secondly, the certainty we expect from
 # the algorithm (which will keep working until this certainty is obtained).
 
-# Fermat's little theorem states that for a given p and a numbers we can know p is primal when a**p-a is equal to some number 
-# multiple of p. We can simplfy this into the following principle: if a**p%p=a, then p is primal. This program's algorithm is
-# based on this translation of Fermat's theorem.
+# Fermat's little theorem states that for a given p and a numbers we can be confidently certain that p is primal when a**p-a is 
+# equal to some number multiple of p. We can simplfy this into the following principle: if a**p%p=a, then p is primal. 
+# This program's algorithm is based on this translation of Fermat's theorem.
     
 def fermats_little_theorem(input_values):
 
