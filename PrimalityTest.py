@@ -21,7 +21,7 @@ def fermats_little_theorem(input_values):
     while 1 - pow(2, -count) < required_certainty:
         a = randint(2, given_number - 1)
         print("certainty is " + str((1 - pow(2, -count))) + "\n")
-        if pow(int(a), int(n),int(n)) != a:
+        if pow(int(a), given_number, given_number) != a:
             print(False)
             break
         elif a in tested_ints: 
