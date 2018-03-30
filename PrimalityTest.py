@@ -6,10 +6,10 @@ from random import randint
 # the number which primal or not-primal nature we want to figure out and, secondly, the certainty we expect from
 # the algorithm (which will keep working until this certainty is obtained).
 
-# Fermat's little theorem states that for a given p, if p is prime, then one minus a raised to the predecessor of p will be
-# a multiple of p. This translates into: a**(p-1)-1 = x, where x is a multiple of p.
+# Fermat's little theorem states that for a given p and a numbers, if p is prime, then one less than a raised to the predecessor 
+# of p will be a multiple of p. This translates into: a**(p-1) - 1 = x, where x is a multiple of p.
 # An algorithm based on this formula states that, if a**p%p=a, then we can be confidently certain p is a primal number, except
-# when dealing with the rare cae of a being a Charmicael number. This algorithm is used on the program.
+# when dealing with the rare case of a being a Charmicael number. This algorithm is used on the program.
 
 def fermats_little_theorem(input_values):
 
